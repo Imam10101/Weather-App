@@ -1,0 +1,129 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+   
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  
+  .current-date-time {
+    text-align: right;
+  }
+  
+  .current-date-time p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Added to stack elements vertically */
+  }
+  
+  .row {
+    flex: 1;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .section-image {
+    width: 460px;
+    height: 197px;
+    object-fit: cover;
+  }
+  
+  .temperature {
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  
+  .section-2 {
+
+    height: 196px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .top-info,
+  .bottom-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .small-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  
+  .info-box {
+    margin-bottom: 10px;
+  }
+  
+  .top-info p,
+  .bottom-info p {
+    display: flex;
+    align-items: center;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #44030e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
